@@ -1,0 +1,61 @@
+body
+{
+    background-color:rgb(63, 63, 63);
+}
+.menu
+{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.span{
+    width: 60px;
+
+}
+.one
+{
+    border-left: 1px solid black;
+    margin-left: 5px;
+}
+.one:hover{
+    background-color: rgb(57, 57, 57);
+}
+.menu p
+{
+    padding-left: 15px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.menu p a{
+    text-decoration: none;
+    color: #fff;
+}
+.container
+{
+    display: flex;
+    margin-top: 25px;
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    color: #fff;
+    font-size: larger;
+}

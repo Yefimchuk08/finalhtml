@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(63, 63, 63);
+}
+
+.menu
+{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.span{
+    width: 60px;
+
+}
+.one
+{
+    border-left: 1px solid black;
+    margin-left: 5px;
+}
+.menu p
+{
+    padding-left: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.one:hover{
+    background-color: rgb(57, 57, 57);
+}
+.menu p a{
+    text-decoration: none;
+    color: #fff;
+}
+.container
+{
+    width: 100%;
+}
+.two
+{
+    width: 100%;
+    opacity: 50%;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 20%;
+    left:3%;
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    border: 10px solid #925f42;
+    width: 90%;
+    height: 90%;
+
+}
+.vkazivnik
+{
+
+    position: absolute;
+    background-color: #925f42;
+    color: #fff;
+    top: 111%;
+    left: 48%;
+    transform: rotate(90deg);
+    width: 37px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+ 
+
+}
+.vkazivnik a p{
+    text-decoration: none;
+    color: #fff;
+}
+#text{
+    color: #fff;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 250px;
+}
